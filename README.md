@@ -31,7 +31,7 @@ Optional requirements for using gpu:
 # Usage 
 * **imgs** folder contains three samples images with simulated single look speckle in amplitude format;
 the sample image are taken from [UC Merced LandUse Dataset](http://weegee.vision.ucmerced.edu/datasets/landuse.html).
-Thre differente <AREA> can be tested:
+Three differente <AREA> can be tested:
      * baseballdiamond
      * golfcourse
      * storagetanks
