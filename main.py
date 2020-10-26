@@ -78,6 +78,6 @@ plt.figure()
 plt.subplot(131),plt.imshow(I_noisy[net_scope/2:-net_scope/2,net_scope/2:-net_scope/2], cmap = 'gray',vmin=0,vmax=255),plt.title('noisy')
 plt.subplot(132),plt.imshow(I_ref[net_scope/2:-net_scope/2,net_scope/2:-net_scope/2], cmap = 'gray',vmin=0,vmax=255),plt.title('ref')
 plt.subplot(133),plt.imshow(I_out , cmap = 'gray',vmin=0,vmax=255),plt.title('image -filtered')
-
+plt.show()
 
 
