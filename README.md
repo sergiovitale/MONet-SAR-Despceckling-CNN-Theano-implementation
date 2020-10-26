@@ -1,4 +1,4 @@
-# MONet-theano-implementation
+# MONet - SAR Despceckloing CNN - (python/theano implementation)
 
 [MONet: CNN based SAR despeckling](https://arxiv.org/abs/2006.09050) is a CNN for single look SAR despeckling.
 
