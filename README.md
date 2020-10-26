@@ -6,7 +6,7 @@ This the python (Theano) version of the code
 
 # Team members
  Sergio Vitale    (contact person, sergio.vitale@uniparthenope.it);
- Giampaolo Ferratiolo (giampaolo.ferraioli@uniparthenope.it);
+ Giampaolo Ferraioli (giampaolo.ferraioli@uniparthenope.it);
  Vito Pascazio (vito.pascazio@uniparthenope.it)
  
 # License
