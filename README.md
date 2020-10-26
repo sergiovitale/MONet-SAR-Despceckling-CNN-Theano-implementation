@@ -16,13 +16,14 @@ terms of the license, as specified in the document LICENSE.txt
 (included in this directory)
 
 # Prerequisits
-This code is written for Python2.7 and uses Theano library.
-The list of all requirements is in `requirements.txt`.
+This code is written on Ubuntu system for Python2.7 and uses Theano library, works also under Python3.7.
+* Install [Anaconda](https://repo.anaconda.com/archive/)
+* From terminal install all requirements in `requirements.txt`.
 
 The command to install the requirements is: 
 
 ```
-cat requirements.txt | xargs -n 1 -L 1 pip2 install
+conda install --yes --file requirements.txt
 ```
 
 Optional requirements for using gpu:
@@ -33,4 +34,16 @@ Optional requirements for using gpu:
 * **imgs** folder contains three samples images with simulated single look speckle in amplitude format;
 the sample image are taken from [UC Merced LandUse Dataset](http://weegee.vision.ucmerced.edu/datasets/landuse.html)
 * **model** folder contains the pre-trained network
-* open **main.py**, select the image to filter and run
+* open **main.py**, select the image to filter
+
+## Usage without GPU
+* launch spyder and run **main.py**
+
+## Usage with GPU
+* edit the spyder_launcher.sh with custom cuda and cudnn path
+* from terminal 
+```
+sh spyder_launcher.sh
+```
+* see Usage section for editing and running
+
