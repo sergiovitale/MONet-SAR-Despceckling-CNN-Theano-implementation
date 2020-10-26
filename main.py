@@ -68,6 +68,11 @@ net=Network(layer)
 "Despeckling"
 I_out = DNN_test(I_noisy,net)
 I_out = np.squeeze(I_out)
+
+#%% saving
+output = {}
+output['I_out']=I_out
+sio.savemat('./output_'+area+'.mat',output)
         
         
 #%% Visualization:
