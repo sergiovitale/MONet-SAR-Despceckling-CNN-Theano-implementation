@@ -30,7 +30,7 @@ Optional requirements for using gpu:
 * cudnn = 5
 
 # Usage
-* imgs folder contains three samples images with siulated single look speckle in amplitude format;
+* **imgs** folder contains three samples images with simulated single look speckle in amplitude format;
 the sample image are taken from [UC Merced LandUse Dataset](http://weegee.vision.ucmerced.edu/datasets/landuse.html)
-* model folder contains the pre-trained network
-* open main.py, select the image to filter and run
+* **model** folder contains the pre-trained network
+* open **main.py**, select the image to filter and run
