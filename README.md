@@ -36,10 +36,10 @@ the sample image are taken from [UC Merced LandUse Dataset](http://weegee.vision
 * **model** folder contains the pre-trained network
 * open **main.py**, select the image to filter
 
-## Usage without GPU
+### Usage without GPU
 * launch spyder and run **main.py**
 
-## Usage with GPU
+### Usage with GPU
 * edit the spyder_launcher.sh with custom cuda and cudnn path
 * from terminal 
 ```
