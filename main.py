@@ -12,7 +12,7 @@ import theano
 import numpy as np
 import scipy.io as sio
 from testing_model import Network, BN_convLayer
-from test import DNN_test
+from test_ import DNN_test
 
 "Select the simulated image to despeckle: images are sample from UCMerced dataset "
 #area= 'baseballdiamond'
