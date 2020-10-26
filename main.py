@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """
+INSERIRE COPYRIGHT
 This is the code for MONet: Multi-Objecive CNN Based Algorithm for SAR Despecking
 Take a noisy image with single look speckle in amplitude format and produce the filtered output
 
@@ -7,6 +8,24 @@ The code referes to the paper:
     S.Vitale, G.Ferraioli, V.Pascazio "Multi-Objecive CNN Based Algorithm for SAR Despecking", 2020, Accepted to TGRS
 
 """
+import os
+import argparse
+
+parser = argparse.ArgumentParser( 
+        description = 'MONet: Multi-Objective CNN based SAR Despeckling')
+                        
+parser.add_argument('-g', '--gpu', action='store_true',default=False,
+                        help='the identifier of the used GPU.')
+
+parser.add_argument('-a', '--area', type=str, default='storagetanks',
+                        help='the identifer of the used sensor.')
+
+config, _ = parser.parse_known_args()
+area = config.area                        
+if (config.gpu):
+	os.environ["THEANO_FLAGS"]='device=cuda0,floatX=float32,init_gpu_device=cuda0'
+else:
+	os.environ["THEANO_FLAGS"] = "floatX=float32"
 
 import theano
 import numpy as np
@@ -14,10 +33,10 @@ import scipy.io as sio
 from testing_model import Network, BN_convLayer
 from test_ import DNN_test
 
-"Select the simulated image to despeckle: images are sample from UCMerced dataset "
+#"Select the simulated image to despeckle: images are sample from UCMerced dataset "
 #area= 'baseballdiamond'
 #area = 'golfcourse'
-area = 'storagetanks'
+#area = 'storagetanks'
 
 #%% Loading Data
 img_path = './imgs/'+area+'.mat'
