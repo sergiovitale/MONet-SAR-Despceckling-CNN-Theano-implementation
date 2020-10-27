@@ -19,7 +19,7 @@ This a an example of the results on data with simulated speckle
  Vito Pascazio (vito.pascazio@uniparthenope.it)
  
 # License
-Copyright (c) 2020 Università degli Studi di Napoli "Parthenope".
+Copyright (c) 2020 Dipartimento di Ingegneria and Dipartimento di Scienze e Tecnologie of Università degli Studi di Napoli "Parthenope".
 
 All rights reserved. This work should only be used for nonprofit purposes.
 
