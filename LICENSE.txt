@@ -3,7 +3,7 @@ THIS DOCUMENT CONSTITUTES A LICENCE TO USE THE SOFTWARE ON THE TERMS AND CONDITI
 Preamble
 
 This License applies to the software which with this license is distributed.
-The software is intellectual property of <COSA METTERE?>
+The software is intellectual property of Università degli Studi di Napoli "Parthenope"
 and is placed under the protection of copyright laws, including Italian legislation and international treaties.
 BY USING THE PROGRAM, YOU INDICATE YOUR ACCEPTANCE OF THIS LICENSE TO DO SO.
 
