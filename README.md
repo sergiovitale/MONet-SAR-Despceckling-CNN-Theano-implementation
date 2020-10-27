@@ -43,5 +43,5 @@ python main.py -a <AREA>
 ```
 * run with GPU
 ```
-PATH=<CUDAPATH>:$PATH python main.py -g -s <SENSOR>
+PATH=<CUDAPATH>:$PATH python main.py -g -a <AREA>
 ```
