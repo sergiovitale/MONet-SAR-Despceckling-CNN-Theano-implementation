@@ -24,9 +24,16 @@ The command to install the requirements is:
 cat requirements.txt | xargs -n 1 -L 1 pip2 install
 ```
 
-Optional requirements for using gpu:
+### Anaconda (Optional)
+If you use a python editor
+* install [Anaconda](https://repo.anaconda.com/archive/)
+* install requirements and **spyder** editor with **conda**
+* edit **main.py** and run
+
+### Optional requirements for using gpu:
 * cuda = 8 
 * cudnn = 5
+
 
 # Usage 
 * **imgs** folder contains three samples images with simulated single look speckle in amplitude format;
