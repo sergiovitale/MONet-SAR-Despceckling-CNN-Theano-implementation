@@ -4,6 +4,7 @@
 
 This the python (Theano) version of the code
 
+![img1](/samples/storagetanks_noisy.png) ![img2](/samples/storagetanks_ref.png) ![img3](/samples/storagetanks_out.png)
 # Team members
  Sergio Vitale    (contact person, sergio.vitale@uniparthenope.it);
  Giampaolo Ferraioli (giampaolo.ferraioli@uniparthenope.it);
