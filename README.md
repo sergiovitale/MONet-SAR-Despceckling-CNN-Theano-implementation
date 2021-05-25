@@ -2,7 +2,7 @@
 
 This the python (Theano) implementation of the testing phase for **MONet**, a CNN for SAR despeckling described in the paper
 [Multi-Objective CNN Based Algorithm for SAR
-Despeckling](https://arxiv.org/abs/2006.09050).
+Despeckling](https://ieeexplore.ieee.org/document/9261137).
 
 MONet is 17 layers CNN with skip connection and a multi-objective cost function L. L is composed of three terms: MSE between output and reference, Kullback-Leibler divergence between estimated noise distribution and the theoretical one, and an edge loss computed on output and the reference. The architecture is shown in the following
 
