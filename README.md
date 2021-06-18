@@ -4,7 +4,7 @@ This the python (Theano) implementation of the testing phase for **MONet**, a CN
 [Multi-Objective CNN Based Algorithm for SAR
 Despeckling](https://ieeexplore.ieee.org/document/9261137).
 
-For the pytorch implementation go to [Pytorch-MONet](https://github.com/impress-parthenope/MONet--Analysis-on-the-Building-of-Training-Datatset-for-Deep-Learning-SAR-Despeckling/)
+For the pytorch implementation, trained models of MONet and a ready-to-test implementation, go to [Pytorch-MONet](https://github.com/impress-parthenope/MONet--Analysis-on-the-Building-of-Training-Datatset-for-Deep-Learning-SAR-Despeckling/)
 
 MONet is 17 layers CNN with skip connection and a multi-objective cost function L. L is composed of three terms: MSE between output and reference, Kullback-Leibler divergence between estimated noise distribution and the theoretical one, and an edge loss computed on output and the reference. The architecture is shown in the following
 
