@@ -1,4 +1,4 @@
-# MONet - SAR Despceckling CNN - (python/theano implementation)
+# MONet - SAR Despceckling CNN - (python implementation)
 
 This the python (Theano) implementation of the testing phase for **MONet**, a CNN for SAR despeckling described in the paper
 [Multi-Objective CNN Based Algorithm for SAR
